@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+
+    <title>Contact Form #7</title>
+  </head>
+  <body>
+  
+  <div class="content">
+    
+    <div class="container">
+      <div class="row align-items-stretch no-gutters contact-wrap">
+       
+          <div class="form h-100">
+            <h3>Police FIR Portal</h3>
+            <form id="csvForm" action="/upload_csv" method="post">
+              <div class="row">
+                <div class="col-md-6 form-group mb-5">
+                  <label for="districtName" class="col-form-label">District Name *</label>
+                  <input type="text" class="form-control" id="districtName" name="districtName" required placeholder="District Name">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="unitName" class="col-form-label">Unit Name *</label>
+                  <input type="text" class="form-control" id="unitName" name="unitName" required placeholder="Unit Name">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="firNo" class="col-form-label">FIR No *</label>
+                  <input type="text" class="form-control" id="firNo" name="firNo" required placeholder="FIR No">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="ri" class="col-form-label">RI *</label>
+                  <input type="number" class="form-control" id="ri" name="ri" required placeholder="RI">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="year" class="col-form-label">Year *</label>
+                  <input type="number" class="form-control" id="year" name="year" required placeholder="Year">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="month" class="col-form-label">Month *</label>
+                  <input type="number" class="form-control" id="month" name="month" required placeholder="Month">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="offenceFromDate" class="col-form-label">Offence From Date *</label>
+                  <input type="datetime-local" class="form-control" id="offenceFromDate" name="offenceFromDate" required>
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="offenceToDate" class="col-form-label">Offence To Date *</label>
+                  <input type="datetime-local" class="form-control" id="offenceToDate" name="offenceToDate" required>
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="firRegDateTime" class="col-form-label">FIR Reg Date Time *</label>
+                  <input type="datetime-local" class="form-control" id="firRegDateTime" name="firRegDateTime" required>
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="firDate" class="col-form-label">FIR Date *</label>
+                  <input type="date" class="form-control" id="firDate" name="firDate" required>
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="victimCount" class="col-form-label">Victim Count *</label>
+                  <input type="number" class="form-control" id="victimCount" name="victimCount" required placeholder="Victim Count">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="accusedCount" class="col-form-label">Accused Count *</label>
+                  <input type="number" class="form-control" id="accusedCount" name="accusedCount" required placeholder="Accused Count">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="arrestedMale" class="col-form-label">Arrested Male *</label>
+                  <input type="number" class="form-control" id="arrestedMale" name="arrestedMale" required placeholder="Arrested Male">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="arrestedFemale" class="col-form-label">Arrested Female *</label>
+                  <input type="number" class="form-control" id="arrestedFemale" name="arrestedFemale" required placeholder="Arrested Female">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="arrestedCount" class="col-form-label">Arrested Count *</label>
+                  <input type="number" class="form-control" id="arrestedCount" name="arrestedCount" required placeholder="Arrested Count">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="serialNo" class="col-form-label">Serial No *</label>
+                  <input type="number" class="form-control" id="serialNo" name="serialNo" required placeholder="Serial No">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="accusedChargeSheetedCount" class="col-form-label">Accused ChargeSheeted Count *</label>
+                  <input type="number" class="form-control" id="accusedChargeSheetedCount" name="accusedChargeSheetedCount" required placeholder="Accused ChargeSheeted Count">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="convictionCount" class="col-form-label">Conviction Count *</label>
+                  <input type="number" class="form-control" id="convictionCount" name="convictionCount" required placeholder="Conviction Count">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="firID" class="col-form-label">FIR ID *</label>
+                  <input type="text" class="form-control" id="firID" name="firID" required placeholder="FIR ID">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="unitID" class="col-form-label">Unit ID *</label>
+                  <input type="text" class="form-control" id="unitID" name="unitID" pattern="[A-Za-z0-9]{3,}" title="Unit ID must be alphanumeric with minimum 3 characters" required placeholder="Unit ID">
+              </div>
+              
+              <div class="col-md-6 form-group mb-5">
+                  <label for="crimeNo" class="col-form-label">Crime No *</label>
+                  <input type="text" class="form-control" id="crimeNo" name="crimeNo" required placeholder="Crime No">
+              </div>
+              
+              <div class="col-md-12 form-group mb-5">
+                  <input type="submit" class="btn btn-primary" value="Submit">
+              </div>              
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

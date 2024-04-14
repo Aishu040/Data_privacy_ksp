@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>masking</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-sm-12 cv-cont">
+                <div class="header row">
+                    <h2>Data Masking Selection </h2>
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="cv-port row">
+                            <div class="col-md-4">
+                                <div class="cv-info">
+                                    <div class="cvp">
+
+
+                                        <h6>Sensitive Data</h6>
+
+                                    </div>
+                                    <h6 class="skillc"></h6>
+                                    <div class="skp">
+                                        <p>Name<br>
+                                            AliasName<br>
+                                            Address<br>
+                                            Age<br>
+                                            Father_Name<br>
+                                            Source_Of_Income<br>
+                                            PresentWhereabout
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="cv-stail row">
+                                    <div class="col-sm-4 vbhfg center">
+                                        <img src="static/mask.png" alt=""> <br>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <h2>Jimmy Anderson</h2>
+                                        <h4>TNMDU2003</h4>
+                                    </div>
+                                </div>
+                                <div class="jumbo-address row">
+                                    <div class="row w-100 no-margin">
+                                        <div class="col-lg-6 no-padding">
+                                            <form action="/submit_form" method="post">
+                                                <table class="addrss-list">
+                                                    <tbody>
+                                                        <tr>
+                                                        <tr>
+                                                            <th>
+                                                                <label for="district_name">District Name</label>
+                                                                <!-- <input type="text" id="district_name"
+                                                                    name="district_name" class="form-control"
+                                                                    value="{{ district_names }}" disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox" id="district_name_checkbox"
+                                                                    name="district_name_checkbox" value="District_Name">
+                                                                <label for="district_name_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <label for="unit_name">Unit Name</label>
+                                                                <!-- <input type="text" id="unit_name" name="unit_name"
+                                                                    class="form-control" value="{{ unit_names }}"
+                                                                    disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox" id="unit_name_checkbox"
+                                                                    name="unit_name_checkbox" value="Unit_Name">
+                                                                <label for="unit_name_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <label for="rowdy_sheet_no">Rowdy Sheet No</label>
+                                                                <!-- <input type="text" id="rowdy_sheet_no"
+                                                                    name="rowdy_sheet_no" class="form-control"
+                                                                    value="{{ rowdy_sheet_nos }}" disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox" id="rowdy_sheet_no_checkbox"
+                                                                    name="rowdy_sheet_no_checkbox"
+                                                                    value="Rowdy_Sheet_No">
+                                                                <label for="rowdy_sheet_no_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <label for="name">Name</label>
+                                                                <!-- <input type="text" id="name" name="name"
+                                                                    class="form-control" value="{{ names }}" disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox" id="name_checkbox"
+                                                                    name="name_checkbox" value="Name">
+                                                                <label for="name_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                        <!-- Add similar rows for other attributes -->
+                                                        <tr>
+                                                            <th>
+                                                                <label for="alias_name">Alias Name</label>
+                                                                <!-- <input type="text" id="alias_name" name="alias_name"
+                                                                    class="form-control" value="{{ alias_names }}"
+                                                                    disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox" id="alias_name_checkbox"
+                                                                    name="alias_name_checkbox" value="AliasName">
+                                                                <label for="alias_name_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <label for="rs_open_date">RS Open Date</label>
+                                                                <!-- <input type="text" id="rs_open_date" name="rs_open_date"
+                                                                    class="form-control" value="{{ rs_open_dates }}"
+                                                                    disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox" id="rs_open_date_checkbox"
+                                                                    name="rs_open_date_checkbox" value="RS_Open_Date">
+                                                                <label for="rs_open_date_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <label for="rowdy_classification_details">Rowdy
+                                                                    Classification Details</label>
+                                                                <!-- <input type="text" id="rowdy_classification_details"
+                                                                    name="rowdy_classification_details"
+                                                                    class="form-control"
+                                                                    value="{{ rowdy_classification_details }}" disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox"
+                                                                    id="rowdy_classification_details_checkbox"
+                                                                    name="rowdy_classification_details_checkbox"
+                                                                    value="Rowdy_Classification_Details">
+                                                                <label
+                                                                    for="rowdy_classification_details_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                <label for="activities_description">Activities
+                                                                    Description</label>
+                                                                <!-- <input type="text" id="activities_description"
+                                                                    name="activities_description" class="form-control"
+                                                                    value="{{ activities_description }}" disabled> -->
+                                                            </th>
+                                                            <td>
+                                                                <input type="checkbox"
+                                                                    id="activities_description_checkbox"
+                                                                    name="activities_description_checkbox"
+                                                                    value="Activities_Description">
+                                                                <label
+                                                                    for="activities_description_checkbox">Mask</label>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                        </div>
+                                        <div class="col-lg-6 no-padding">
+                                            <table class="addrss-list">
+                                                <tbody>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="rowdy_category">Rowdy Category</label>
+                                                            <!-- <input type="text" id="rowdy_category" name="rowdy_category"
+                                                                class="form-control" value="{{ rowdy_categories }}"
+                                                                disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="rowdy_category_checkbox"
+                                                                name="rowdy_category_checkbox" value="Rowdy_Category">
+                                                            <label for="rowdy_category_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="prev_case_details">Prev Case Details</label>
+                                                            <!-- <input type="text" id="prev_case_details"
+                                                                name="prev_case_details" class="form-control"
+                                                                value="{{ prev_case_details }}" disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="prev_case_details_checkbox"
+                                                                name="prev_case_details_checkbox"
+                                                                value="PrevCase_Details">
+                                                            <label for="prev_case_details_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="address">Address</label>
+                                                            <!-- <input type="text" id="address" name="address"
+                                                                class="form-control" value="{{ addresses }}" disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="address_checkbox"
+                                                                name="address_checkbox" value="Address">
+                                                            <label for="address_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="age">Age</label>
+                                                            <!-- <input type="text" id="age" name="age" class="form-control"
+                                                                value="{{ ages }}" disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="age_checkbox" name="age_checkbox"
+                                                                value="Age">
+                                                            <label for="age_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="father_name">Father's Name</label>
+                                                            <!-- <input type="text" id="father_name" name="father_name"
+                                                                class="form-control" value="{{ father_names }}"
+                                                                disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="father_name_checkbox"
+                                                                name="father_name_checkbox" value="Father_Name">
+                                                            <label for="father_name_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="source_of_income">Source of Income</label>
+                                                            <!-- <input type="text" id="source_of_income"
+                                                                name="source_of_income" class="form-control"
+                                                                value="{{ sources_of_income }}" disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="source_of_income_checkbox"
+                                                                name="source_of_income_checkbox"
+                                                                value="Source_Of_Income">
+                                                            <label for="source_of_income_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="last_updated_date">Last Updated Date</label>
+                                                            <!-- <input type="text" id="last_updated_date"
+                                                                name="last_updated_date" class="form-control"
+                                                                value="{{ last_updated_dates }}" disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="last_updated_date_checkbox"
+                                                                name="last_updated_date_checkbox"
+                                                                value="LastUpdatedDate">
+                                                            <label for="last_updated_date_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>
+                                                            <label for="present_whereabout">Present Whereabout</label>
+                                                            <!-- <input type="text" id="present_whereabout"
+                                                                name="present_whereabout" class="form-control"
+                                                                value="{{ present_whereabouts }}" disabled> -->
+                                                        </th>
+                                                        <td>
+                                                            <input type="checkbox" id="present_whereabout_checkbox"
+                                                                name="present_whereabout_checkbox"
+                                                                value="PresentWhereabout">
+                                                            <label for="present_whereabout_checkbox">Mask</label>
+                                                        </td>
+                                                    </tr>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="form-group form-button">
+                                            <input type="submit" name="signup" id="signup" class="form-submit"
+                                                value="Submit" />
+                                        </div>
+                                        </form>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</body>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
