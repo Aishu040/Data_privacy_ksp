@@ -3,9 +3,9 @@
 Our privacy system merges cutting-edge privacy encryption with AI-driven tools, ensuring secure handling of sensitive data while staying compliant with laws like GDPR and CCPA. It automates sensitive data identification, integrates encryption with AI, stays updated with legal frameworks, and offers personalized data masking strategies for enhanced privacy protection.
 
 Table of Contents
-	Introduction
-	Installation
-	Usage
+-	Introduction
+-	Installation
+-	Usage
 
 # Introduction
 Our privacy system combines privacy encryption methods with AI-driven applications, trained comprehensively on all relevant laws. By seamlessly integrating privacy encryption techniques, it ensures secure handling of sensitive data. Leveraging AI, it continuously learns from legal frameworks to recommend personalized data masking strategies, ensuring compliance and enhancing data privacy protection.
