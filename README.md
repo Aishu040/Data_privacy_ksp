@@ -20,6 +20,9 @@ Installation:
 # Clone the repository
 git clone https://github.com/Aishu040/Data_privacy_ksp.git
 
+# Video link
+https://drive.google.com/file/d/1KqBDHrlA_SJsd-MztXIhtteDiOgnRUMi/view?usp=sharing
+
 # Navigate to the project directory
 cd Data_privacy_ksp.py
 
