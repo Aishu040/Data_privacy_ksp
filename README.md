@@ -19,7 +19,7 @@ Installation:
 git clone https://github.com/Aishu040/Data_privacy_ksp.git
 
 # Video link
-https://drive.google.com/file/d/1KqBDHrlA_SJsd-MztXIhtteDiOgnRUMi/view?usp=sharing
+https://drive.google.com/file/d/1RYNOWDx0GTVu7vEQlkr68ii1ncwc_GlL/view?usp=sharing
 
 # Navigate to the project directory
 cd Data_privacy_ksp.py
@@ -32,4 +32,6 @@ Usage:
 python tempapp.py
 
 # Final product Link
-https://kspdeploy-3.onrender.com
+https://kspdeploy-2.onrender.com
+
+(may take few secs to load)
