@@ -1,0 +1,201 @@
+Attribute,Recommendation,Law/Regulation
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Mask,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+No.,Consider Masking,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+Month,Consider Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+Victim Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Month,Consider Masking,"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+UnitName,Consider Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+Offence_From_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Offence_To_Date,Consider Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Year,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Offence_To_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+No.,Mask,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Unit_ID,Mask,"Likely internal identifier, not crucial for public analysis"
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+RI,Consider Masking,Likely anonymized reference code for internal use
+Arrested Count,Consider Aggregation,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Unit_ID,Mask,"Likely internal identifier, not crucial for public analysis"
+Unit_ID,Mask,"Likely internal identifier, not crucial for public analysis"
+Month,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Month,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Year,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Female,Consider Masking,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Male,Mask,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Offence_From_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Conviction Count,Consider Masking,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Year,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Count,Consider Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Mask,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+Offence_From_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+District_Name,Consider Masking,"Protect victim/witness privacy, avoid location bias (Partially aligns with IT Act & RTI Act exemptions)"
+Conviction Count,Mask,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Offence_From_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+FIRNo,Mask,"Not crucial for public analysis, protects ongoing investigations (Reasonable based on RTI Act exemptions)"
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Unit_ID,Mask,"Likely internal identifier, not crucial for public analysis"
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Year,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Month,Consider Masking,"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+FIRNo,Mask,"Not crucial for public analysis, protects ongoing investigations (Reasonable based on RTI Act exemptions)"
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Victim Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Offence_To_Date,Consider Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+Accused Count,Consider Masking,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+FIRNo,Mask,"Not crucial for public analysis, protects ongoing investigations (Reasonable based on RTI Act exemptions)"
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+Month,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Accused_ChargeSheeted Count,Consider Masking,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Offence_From_Date,Consider Partial Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Consider Masking,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Month,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Consider Masking,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+FIRNo,Mask,"Not crucial for public analysis, protects ongoing investigations (Reasonable based on RTI Act exemptions)"
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Unit_ID,Consider Masking,"Likely internal identifier, not crucial for public analysis"
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Unit_ID,Mask,"Likely internal identifier, not crucial for public analysis"
+Year,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+RI,Keep (Unmask),Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Conviction Count,Consider Masking,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Arrested Count,Consider Aggregation,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Victim Count,Consider Masking,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+District_Name,Consider Masking,"Protect victim/witness privacy, avoid location bias (Partially aligns with IT Act & RTI Act exemptions)"
+FIR_Date,Consider Masking,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Offence_To_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+District_Name,Consider Masking,"Protect victim/witness privacy, avoid location bias (Partially aligns with IT Act & RTI Act exemptions)"
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+RI,Keep (Unmask),Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Offence_From_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+District_Name,Consider Masking,"Protect victim/witness privacy, avoid location bias (Partially aligns with IT Act & RTI Act exemptions)"
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+FIR_Date,Consider Masking,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Male,Consider Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+Offence_To_Date,Consider Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+Victim Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Offence_To_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Unit_ID,Mask,"Likely internal identifier, not crucial for public analysis"
+Year,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Offence_To_Date,Consider Partial Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Arrested Male,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+Month,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+UnitName,Consider Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Consider Masking,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+District_Name,Consider Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+Accused_ChargeSheeted Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+No.,Consider Masking,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+No.,Consider Masking,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+No.,Mask,"Likely an internal reference number, masking depends on context (Unclear without further information)"
+Victim Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Arrested Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+Accused Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+Victim Count,Consider Aggregation,"Group into ranges (e.g., 1-2, 3-5) to avoid revealing specific numbers (Balance detail with anonymity)"
+District_Name,Consider Masking,"Protect victim/witness privacy, avoid location bias (Partially aligns with IT Act & RTI Act exemptions)"
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Arrested Female,Mask,Protects identities of accused individuals (Strongly aligns with IT Act & RTI Act exemptions)
+FIR_Date,Mask Date,Similar to FIR_Reg_DateTime (Strongly aligns with IT Act & RTI Act exemptions)
+Offence_From_Date,Consider Partial Masking,"Mask specific dates, keep year/month for broader trends (Balance privacy with time-based analysis)"
+Arrested Count,Consider Aggregation,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+FIRNo,Mask,"Not crucial for public analysis, protects ongoing investigations (Reasonable based on RTI Act exemptions)"
+RI,Consider Masking,Likely anonymized reference code for internal use
+Unit_ID,Mask,"Likely internal identifier, not crucial for public analysis"
+District_Name,Consider Masking,"Protect victim/witness privacy, avoid location bias (Partially aligns with IT Act & RTI Act exemptions)"
+Conviction Count,Mask,Protects identities of accused (Strongly aligns with IT Act & RTI Act exemptions)
+UnitName,Mask,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+Month,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+UnitName,Consider Masking,Similar to District_Name (Partially aligns with IT Act & RTI Act exemptions)
+District_Name,Consider Masking,Protects privacy (Partially aligns with IT Act & RTI Act exemptions)
+RI,Keep (Unmask),Likely anonymized reference code for internal use
+FIR_Reg_DateTime,Mask Date & Time,Protects identities and avoids compromising investigations (Strongly aligns with IT Act & RTI Act exemptions)
+Year,Keep (Unmask),"Might reveal trends linked to specific periods, depending on analysis (Consider privacy vs. insights)"
+FIRNo,Mask,"Not crucial for public analysis, protects ongoing investigations (Reasonable based on RTI Act exemptions)"

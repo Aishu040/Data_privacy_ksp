@@ -67,15 +67,3 @@ def geographic_masking(lat_or_long):
         return value + noise
     except ValueError:
         return lat_or_long
-
-def hash_value(value):
-    """Hashes the given value using SHA-256."""
-    return hashlib.sha256(value.encode()).hexdigest()
-
-def mask_form_data(form_data):
-   masked_data = {}
-   for key, value in form_data.items():
-        # Hash the value using SHA-256
-        hashed_value = hashlib.sha256(value.encode()).hexdigest()
-        masked_data[key] = hashed_value
-   return masked_data
